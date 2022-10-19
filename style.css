@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Karla&family=Montserrat:ital,wght@0,700;1,400&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    text-decoration: none;
+
+}
+body{
+    background: hsl(30, 38%, 92%);
+    width:700px;
+    height: 500px;
+    
+}
+section{
+    padding: 50px;
+    position: fixed; 
+    top: 50%; 
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    display: grid;
+    grid-template-columns: 350px 350px;
+}
+.left-side-image img{
+    height: 500px;
+    width: 350px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.right-side{
+    background-color: hsl(0, 0%, 100%);
+}
+.header p{
+    color:grey;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 1.3px;
+    font-family: 'Karla', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    padding: 20px 0px 0px 30px;
+}
+.header-title h1{
+    color: black;
+    font-weight: 700;
+    font-size: 30px;
+    font-family: 'Fraunces', serif;
+    font-family: 'Karla', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    padding: 20px 0px 0px 30px;
+}
+.description p{
+    font-size: 20px;
+    color: gray;
+    font-family: 'Monserrat' sans-serif;
+    padding: 20px 0px 0px 30px;
+
+}
+.price-wrapper{
+    display: flex;
+    padding: 20px 0px 0px 30px;
+    align-items: center;
+}
+.discount p{
+    color:hsl(158, 36%, 37%);
+    font-size: 30px;
+    font-family: 'Fraunses' sans-serif;
+    font-weight: 700;
+    
+    
+}
+.price p{
+    color:grey;
+    text-decoration: line-through;
+    padding-left: 20px;
+    
+}
+.bottom-button{
+    background-color:hsl(158, 83%, 16%) ;
+    border-radius: 5px;
+    margin: 40px 20px 0px 40px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+}
+.bottom-button a{
+    color:white;
+    font-family: 'Monserrat' sans-serif;
+}
